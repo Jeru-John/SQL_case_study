@@ -189,7 +189,7 @@ GROUP BY sales.product_id ORDER BY COUNT(sales.product_id) desc LIMIT 1;
 ###### Inference: 
 **Ramen is the most selled product.**
 
-### Which item was the most popular for each customer?
+### 5.Which item was the most popular for each customer?
 
 ##### step 1: 
 The below query will give the count based on grouping of customer_id and product_name from sales and menu table
