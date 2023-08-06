@@ -1,7 +1,6 @@
 ### Assignment 1 [ SQL Query Basics ]:
 
-<!-- add screenshot 1 -->
-
+<img width="442" alt="screenshot-1" src="https://github.com/Jeru-John/SQL_case_study/assets/141055457/211e07f9-670c-46c3-9951-19b2a026853d">
 
 ##### Create the above table:
 ```sql
@@ -113,8 +112,7 @@ SELECT * FROM students WHERE AGE <= 20 AND ( student_no BETWEEN 3 AND 5 OR stude
 
 ### Assignment 2 [ Using Functions ]:
 
-<!-- add screenshot 2 -->
-
+<img width="440" alt="screenshot-2" src="https://github.com/Jeru-John/SQL_case_study/assets/141055457/7c6aed46-a93c-4516-bd46-d6aba85d1914">
 
 ##### Create the above table:
 ```sql
@@ -222,7 +220,7 @@ SELECT MIN(hire_date) AS longest_service_start_date FROM professors
 
 ### Assignment 3 [ Grouping and Aggregating ]:
 
-<!-- add screenshot 3 -->
+<img width="450" alt="screenshot-3" src="https://github.com/Jeru-John/SQL_case_study/assets/141055457/02950baf-4101-4fb2-ae63-2c227c9b855d">
 
 #### Creating the above table:
 
@@ -325,7 +323,7 @@ FROM fruits;
 
 ### Assignment 4 [Using subqueries]: 
 
- <!-- assignment 4 screenshot -->
+<img width="481" alt="screenshot-4" src="https://github.com/Jeru-John/SQL_case_study/assets/141055457/cd8ddd6a-40ad-4276-aded-14739efab61e">
 
 #### creating the above tables:
 1. students table:
@@ -373,7 +371,7 @@ SELECT * FROM students WHERE age = (SELECT MAX(age) FROM students)
 
 ### Assignment 5: [CASE CLAUSE]
 
-<!-- screenshot-3 -->
+<img width="450" alt="screenshot-3" src="https://github.com/Jeru-John/SQL_case_study/assets/141055457/df82024a-244f-4414-9202-a4cee9e74a7e">
 
 ##### 1. Write a query that displays 3 columns. The query should display the fruit and it's total supply along with a category of either LOW, ENOUGH or FULL. Low category means that the total supply of the fruit is less than 20,000. The enough category means that the total supply is between 20,000 and 50,000. If the total supply is greater than 50,000 then that fruit falls in the full category.
 ```sql
